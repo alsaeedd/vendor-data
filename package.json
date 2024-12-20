@@ -1,0 +1,20 @@
+{
+  "name": "vendor-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node \"build/index.js\""
+  },
+  "repository": "git@github.com:alsaeedd/vendor-data.git",
+  "author": "alsaeedd <saeedalsaeedbusiness@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/util-dynamodb": "^3.716.0",
+    "aws-sdk": "^2.1692.0",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
